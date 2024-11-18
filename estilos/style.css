@@ -14,7 +14,7 @@
 }
 
 body, html {
-    background-color: #000000;
+    background-color: #2E4A3E;
     color: white;
     height: 100vh;
     width: 100vw;
@@ -38,20 +38,19 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    border: solid 1px;
-    box-shadow: 0px 0px 25px rgba(211, 194, 43, 0.688);
+    box-shadow: 0px 0px 25px rgba(211, 194, 43, 0.784);
 
     transition: width .4s, height .4s;
     transition-timing-function: ease;
 }
 
-section#login::before section#login::after {
+/*section#login::before section#login::after {
     content: '';
     position: absolute;
     width: calc(100% + 30px);
     height: calc(100% + 30px);
     background: linear-gradient(45deg, #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
-}
+}*/
 
 section#login > div#imagem {
     display: block;
